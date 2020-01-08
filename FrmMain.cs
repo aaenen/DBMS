@@ -972,6 +972,7 @@ namespace 教室信息管理系统
                 //string.Format("{0:d}", dateTime);
                 //dateTime.GetDateTimeFormats('D')[1].ToString();
                 //ToShortDateString().ToString();
+                //
 
                 string strClassNum = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();//选中的那一行的第七个单元格，转换为string类型
                 FrmDelete frmDelete = new FrmDelete(intSerialNumber, strClassroomID, strCourseName, strTeacherID, strClassDate, strClassNum);
